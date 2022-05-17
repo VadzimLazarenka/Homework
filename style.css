@@ -22,15 +22,15 @@
 }
 
 .cube__side--front, .cube__side--back {
-    background-color: #31cc89;
+    background-color: #31b7cc;
 }
 
 .cube__side--left, .cube__side--right {
-    background-color: #228f60;
+    background-color: #228f88;
 }
 
 .cube__side--top, .cube__side--bottom {
-    background-color: #1b724c;
+    background-color: #1b6b72;
 }
 
 .cube__side--top {
