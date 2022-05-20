@@ -1,64 +1,93 @@
-.flex-wrapper {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    perspective: 1000px;
-    perspective-origin: center 50px;
+body {
+    background-color: #858585;
 }
 
-.cube {
-    position: relative;
-    transform-style: preserve-3d;
-    animation: rotate 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+table {
+    width: 100%;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.cube__side {
-    position: absolute;
-    width: 100px;
-    height: 100px;
+.number {
+    display: block;
+    margin-bottom: 10px;
 }
 
-.cube__side--front, .cube__side--back {
-    background-color: #31b7cc;
+.mon-radius {
+    border-radius: 10px 0px 0px 0;
 }
 
-.cube__side--left, .cube__side--right {
-    background-color: #228f88;
+.sun-radius {
+    border-radius: 0px 10px 0px 0;
 }
 
-.cube__side--top, .cube__side--bottom {
-    background-color: #1b6b72;
+th {
+    text-transform: uppercase;
+    background-color: #333333;
+    padding: 10px;
 }
 
-.cube__side--top {
-    transform: translateY(-50px) rotateX(90deg);
+th, td {
+    width: 12%;
 }
 
-.cube__side--bottom {
-    transform: translateY(50px) rotateX(90deg);
+td {
+    padding: 10px;
 }
 
-.cube__side--left {
-    transform: translateX(-50px) rotateY(90deg);
+td {
+    padding: 10px;
+    vertical-align: top;
 }
 
-.cube__side--right {
-    transform: translateX(50px) rotateY(90deg);
+.calendar {
+    height: 150px;
+    background-color: #515151;
 }
 
-.cube__side--front {
-    transform: translateZ(-50px);
+.single-day {
+    text-align: center;
 }
 
-.cube__side--back {
-    transform: translateZ(50px);
+.event-start {
+    margin-right: -20px;
 }
 
-@keyframes rotate {
-    100% {
-        transform: rotateY(360deg);
-    }
+.event-middle {
+    margin-left: -20px;
+    margin-right: -20px;
+    text-align: center;
+}
+
+.event-end {
+    margin-left: -60px;
+}
+
+.event {
+    color: #4c4c4c;
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 18px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+}
+
+.green-color {
+    background-color: #59ff7d;
+}
+
+.salmon-color {
+    background-color: #ff9999;
+}
+
+.blue-color {
+    background-color: #85d6ff;
+}
+
+.pink-color {
+    background-color: #dfbfda;
 }
