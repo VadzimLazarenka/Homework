@@ -10,7 +10,7 @@
 .cube {
     position: relative;
     transform-style: preserve-3d;
-    animation: rotate 10s;
+    animation: rotate 5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -22,15 +22,15 @@
 }
 
 .cube__side--front, .cube__side--back {
-    background-color: #31b7cc;
+    background-color: #7231cc;
 }
 
 .cube__side--left, .cube__side--right {
-    background-color: #228f88;
+    background-color: #4f228f;
 }
 
 .cube__side--top, .cube__side--bottom {
-    background-color: #1b6b72;
+    background-color: #451b72;
 }
 
 .cube__side--top {
