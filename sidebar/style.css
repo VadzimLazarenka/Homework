@@ -6,7 +6,7 @@
 }
 
 .sidebar__row {
-    background-color: rgb(255, 0, 106);
+    background-color: rgb(255, 140, 0);
     width: 80px;
     padding: 40px 0px;
     transition: width .4s linear;
@@ -31,8 +31,8 @@ i, .about__text {
 }
 
 .sidebar___about:hover, .sidebar___about:hover i, .sidebar___about:hover>.about__text {
-    color: red;
-    background-color: black;
+    color: rgb(234, 0, 255);
+    background-color: rgb(54, 54, 54);
 }
 
 .sidebar__row:hover>.sidebar___about>.about__text {
