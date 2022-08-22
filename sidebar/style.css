@@ -7,15 +7,15 @@
 
 .sidebar__row {
     background-color: rgb(19, 153, 128);
-    width: 80px;
-    padding: 40px 0px;
+    width: 90px;
+    padding: 50px 0px;
     transition: width .4s linear;
 }
 
 .sidebar___about {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 2s0px;
 }
 
 i, .about__text {
@@ -23,7 +23,7 @@ i, .about__text {
 }
 
 .about__text {
-    padding-left: 40px;
+    padding-left: 50px;
     position: absolute;
     z-index: -1;
     text-indent: -2em;
